@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="/css/syle_layout_course.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+		/>
+		<title>Layout Course</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<nav
+				class="container-fluid d-flex navbar navbar-expand-lg navbar-light bg-light justify-content-between"
+			>
+				<div class="d-flex flex-row justify-content-center align-items-center">
+					<div class="container-fluid d-flex rounded">
+						<img
+							src="/img/iconplatzi.png"
+							class="img-fluid rounded float-start img-empresa"
+							alt="..."
+						/>
+					</div>
+					<div class="">Platzi</div>
+				</div>
+				<div class="col-md-7">
+					<div class="form-floating">
+						<input
+							type="text"
+							class="form-control"
+							id="floatingInputGrid"
+							placeholder="Buscar curso"
+						/>
+						<label for="floatingInputGrid">Buscar curso</label>
+					</div>
+				</div>
+				<div class="d-flex gap-3 flex-lg-row contendor-iconos">
+					<i class="bi bi-twitter"></i>
+					<i class="bi bi-whatsapp"></i>
+					<i class="bi bi-youtube"></i>
+				</div>
+			</nav>
+			<main class="container-fluid d-flex flex-column gap-5">
+				<div class="container-fluid d-flex flex-row gap-5">
+					<div
+						class="container-fluid d-flex flex-column shadow-lg p-4 mb-1 bg-body rounded"
+					>
+						<div class="introduccion-titulo">
+							<h3>Curso de JavaScript</h3>
+						</div>
+						<div class="introduccion-texto">
+							<p>
+								Conoce los conceptos clave del lenguaje de programación que se está
+								comiendo al mundo. Aprende qué es una variable, una función, un
+								objeto y dónde se guardan esos valores. Descubre qué es Scope y cómo
+								se utilizan los loops. Obtén las herramientas para saber cómo tomar
+								decisiones y validar acciones. En este curso, darás el primer paso
+								para empezar tu carrera como desarrollador.
+							</p>
+						</div>
+						<div
+							class="d-flex flex-row justify-content-evenly align-items-center flex-wrap"
+						>
+							<div class="input-curso">
+								<div class="col-md-12">
+									<div class="form-floating">
+										<input
+											type="text"
+											class="form-control"
+											id="floatingInputGrid"
+											placeholder="Buscar curso"
+										/>
+										<label for="floatingInputGrid">Buscar curso</label>
+									</div>
+								</div>
+							</div>
+							<div class="btn-comenzar">
+								<button type="button" class="btn btn-dark btn-lg">Comenzar</button>
+							</div>
+						</div>
+					</div>
+					<div
+						class="banner"
+						style="
+							background-image: url('https://i.ytimg.com/vi/eVr3hXiapBc/maxresdefault.jpg');
+						"
+					></div>
+				</div>
+				<div class="main-inferior">
+					<div class="main-inferior-izquierdo">
+						<div class="main-inferior-contenido">
+							<h3>Contenido del curso</h3>
+							<li>Conocer los conceptos básicos de JS</li>
+							<li>Descubrir la historia de JavaScript</li>
+							<li>Aprender cómo tomar decisiones y validarlas</li>
+							<li>Trabajar con objetos</li>
+						</div>
+						<div class="main-inferior-otros d-flex flex-column gap-3">
+							<div class="otros-titulo">
+								<h4>Otros curso</h4>
+							</div>
+
+							<!--  -->
+							<div
+								class="container-fluid d-flex card mb-3 shadow-lg p-1 mb-4 bg-body rounded"
+								style="max-width: 740px"
+							>
+								<div class="container-fluid d-flex row g-0">
+									<div class="col-md-4">
+										<img
+											src="https://static.platzi.com/media/blog/og-planeador-semanal-css-grid-flexbox-glassmorphism-4c6b5e90-f39b-4edf-b727-e39f170679ef.png"
+											class="img-fluid h-100"
+											alt="..."
+										/>
+									</div>
+									<div class="container-fluid d-flex col-md-8">
+										<div class="container-fluid card-body">
+											<h5 class="card-title">Curso de CSS</h5>
+											<p class="card-text">
+												Aprende CSS desde cero, sin conocimientos previos.
+											</p>
+											<p class="card-text">
+												<small class="text-muted">$250.000</small>
+											</p>
+											<div class="icono-curso">
+												<i class="bi bi-heart-fill"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!--  -->
+							<div
+								class="container-fluid d-flex card mb-3 shadow-lg p-1 mb-4 bg-body rounded"
+								style="max-width: 740px"
+							>
+								<div class="container-fluid d-flex row g-0">
+									<div class="col-md-4">
+										<img
+											src="https://static.platzi.com/media/user_upload/reto-crea-primera-pagina-web_mail-40f56f34-cea7-4bed-b5e0-300cfcd8d50f.jpg"
+											class="img-fluid h-100"
+											alt="..."
+										/>
+									</div>
+									<div class="container-fluid d-flex col-md-8">
+										<div class="container-fluid card-body">
+											<h5 class="card-title">Curso de HTML</h5>
+											<p class="card-text">
+												Aprende HTML desde cero, sin conocimientos previos.
+											</p>
+											<p class="card-text">
+												<small class="text-muted">$250.000</small>
+											</p>
+											<div class="icono-curso">
+												<i class="bi bi-heart-fill"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div
+								class="container-fluid d-flex card mb-3 shadow-lg p-1 mb-4 bg-body rounded"
+								style="max-width: 740px"
+							>
+								<div class="container-fluid d-flex row g-0">
+									<div class="col-md-4">
+										<img
+											src="https://static.platzi.com/media/courses/og-avanzado-java.png"
+											class="img-fluid h-100"
+											alt="..."
+										/>
+									</div>
+									<div class="container-fluid d-flex col-md-8">
+										<div class="container-fluid card-body">
+											<h5 class="card-title">Curso de Java</h5>
+											<p class="card-text">
+												Aprende Java desde cero, sin conocimientos previos.
+											</p>
+											<p class="card-text">
+												<small class="text-muted">$250.000</small>
+											</p>
+											<div class="icono-curso">
+												<i class="bi bi-heart-fill"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div
+								class="container-fluid d-flex card mb-3 shadow-lg p-1 mb-4 bg-body rounded"
+								style="max-width: 740px"
+							>
+								<div class="container-fluid d-flex row g-0">
+									<div class="col-md-4">
+										<img
+											src="https://static.platzi.com/media/courses/og-php-avanzad.png"
+											class="img-fluid h-100"
+											alt="..."
+										/>
+									</div>
+									<div class="container-fluid d-flex col-md-8">
+										<div class="container-fluid card-body">
+											<h5 class="card-title">Curso de PHP</h5>
+											<p class="card-text">
+												Aprende PHP desde cero, sin conocimientos previos.
+											</p>
+											<p class="card-text">
+												<small class="text-muted">$250.000</small>
+											</p>
+											<div class="icono-curso">
+												<i class="bi bi-heart-fill"></i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main-inferior-derecho">
+						<h4>$250.000</h4>
+						<button type="button" class="btn btn-dark btn-sm">Comprar</button>
+						<button type="button" class="btn btn-dark btn-sm">Comenzar</button>
+						<h5>Este curso incluye:</h5>
+						<li>7 Horas de contenido</li>
+						<li>16 Horas de práctica</li>
+						<li>Acceso de por vida</li>
+						<li>Acceso en dispositivos móviles y TV</li>
+						<li>Certificado de finalización</li>
+					</div>
+				</div>
+			</main>
+			<footer class="pie-pagina">
+				<div class="linea-footer">
+					<p>Proyecto Flexbox</p>
+				</div>
+			</footer>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
